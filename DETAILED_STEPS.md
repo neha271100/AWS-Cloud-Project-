@@ -14,12 +14,16 @@
 • Navigate to EC2 console -> Launch Instance
 • Choose Amazon Linux 2 AMI
 • Choose t2.micro instance type.
- ![Step 1](screenshots/image001.jpeg)
+ ![Step 1](screenshots/image001.png)
+ ![Step 1](screenshots/image002.png)
+ 
+### Step 2: Accept default settings and click on Next.
+![Step 2](screenshots/image003.png)
 
-Step 2: Accept default settings and click on Next.
-Step 3: Click on Next.
-5
-Step 4: Click on Next.
+### Step 3: Click on Next.
+![Step 3](screenshots/image004.png)
+
+### Step 4: Click on Next.
 Step 5: Under Security Groups, add a rule for HTTP traffic (port 80) in addition 
 to the SSH traffic.
 6
