@@ -105,8 +105,8 @@ $(ec2-metadata -a)" > /var/www/html/index.htm
 ### Step 36: Connect to the instance using SSH PuTTY.
 ### Step 37: Run the same commands as you did in the primary region.
 sudo su -
-echo "Welcome! You have reached the server: $(hostname -f). The server is launched using $(ec2-
-metadata -a)" > /var/www/html/index.html
+echo "Welcome! You have reached the server: $(hostname -f). 
+The server is launched using $(ec2-metadata -a)" > /var/www/html/index.html
 
 As you can see below, the server shows the AMI ID, and this is the same AMI 
 you created in the DR region by copying the AMI from the primary region.
