@@ -7,7 +7,7 @@
 - SSH client (e.g., PuTTY)
 
 ### Architectural Diagram
-![Architectural Diagram](diagrams/architecture.jpeg)
+![Architectural Diagram](diagrams/Disaster Recovery Architecture.jpeg)
 
 ### Steps and Screenshots
 For detailed steps and screenshots, please refer to [DETAILED_STEPS.md](DETAILED_STEPS.md).
