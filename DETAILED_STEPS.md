@@ -98,6 +98,7 @@ $(ec2-metadata -a)" > /var/www/html/index.htm
 
 ### Step 33: Follow the same steps to create an EC2 instance that you did in the useast-1 region.
 ### Step 34: Provide a name to the new instance for easy identification, such as app-dr-instance.
+![Step 34](screenshots/1.png)
 
 ### Step 35: Access the public server using a browser and ensure that you are able to see the default message as below.This confirms the DR region instance is using the same image as the primary region.
 ![Step 35](screenshots/image022.png)
@@ -119,6 +120,7 @@ DR region and configured it correctly.
 • Bucket Name -> a unique name
 • Region -> us-east-1
 • Click on Create bucket
+![Step 39](screenshots/4.png)
 
 
 ### Step 40: Similarly, create another bucket in the DR region (us-west-1). (If you are not able to access US West 1, use US East 2 (Ohio))
@@ -183,6 +185,7 @@ https://docs.aws.amazon.com/AmazonS3/latest/dev/setting-repl-config-permovervie
 ![Step 55](screenshots/image028.png)
 ### Step 56: Provide a name to the IAM role
 ### Step 57: Click on Create role
+![Step 57](screenshots/5.png)
 
 ### Step 58: Now, the IAM role is created. You can proceed with configuring crossregion replication in the S3 bucket in the primary region.
 ### Step 59: Setup cross-region replication in the primary region
@@ -201,7 +204,6 @@ https://docs.aws.amazon.com/AmazonS3/latest/dev/setting-repl-config-permovervie
 ### Step 70: Choose the KMS key AWS aws/s3
 
 ### Step 71: Click on Next
-
 ### Step 72: Choose the IAM role that you created earlier
 ### Step 73: Provide a name to the role
 ### Step 74: Click on Next
@@ -223,6 +225,7 @@ test file in the primary region and seeing if it gets replicated in the DR regio
 ### Step 81: Click on Next
 ![Step 81](screenshots/image036.png)
 ### Step 82: Click on Upload
+![Step 82](screenshots/10.png)
 
 • You can see the test file uploaded in the primary region, as shown below.
 ![Step 82](screenshots/image037.png)
